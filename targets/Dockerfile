@@ -3,7 +3,7 @@ FROM python:3.12-alpine
 COPY . /app
 WORKDIR /app
 
-RUN apk add --no-cache bash curl parallel aria2 && \
+RUN apk add --no-cache bash curl coreutils parallel aria2 && \
     python -m pip install -r ./requirements.txt && \
     chmod +x ./_entrypoint.sh
 
