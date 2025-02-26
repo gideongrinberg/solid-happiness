@@ -1,0 +1,9 @@
+*
+!data/
+!data/*
+!.gitignore
+!*.sh
+!*.py
+!*.sql
+!*.txt
+!Dockerfile
