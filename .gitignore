@@ -1,1 +1,16 @@
-.DS_store
+*
+!.gitignore
+!requirements.txt
+!targets/
+!targets/**
+
+!scripts/
+!scripts/**
+
+!detector/
+!detector/**
+
+!pyproject.toml
+!main.py
+!.python-version
+!uv.lock
