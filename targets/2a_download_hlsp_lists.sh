@@ -30,6 +30,7 @@ download() {
 
 download qlp 84
 download tglc 41
+download gsfc-eleanor-lite 26
 
 
 # Rename folders again oops
